@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-wheel-metadata/
+.eggs/
+
+# Node
+node_modules/
+dist/
+.npm/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Vite
+.vite/
+dist/
+
+# Env
+.env
+.env.*.local
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build artifacts
+build/
+dist/
+*.zip
+*.tar.gz
+*.rar
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/

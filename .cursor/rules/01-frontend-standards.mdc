@@ -1,0 +1,17 @@
+# Scope
+- React 18+ with TypeScript for all UI components
+- shadcn/ui component library integration
+- Reusable components (especially DataTable)
+- Centralized API communication via src/lib/api.ts
+
+# Non-goals
+- No direct Graph API calls from frontend code
+- No custom UI component library development (use shadcn/ui)
+- No jQuery or legacy frontend frameworks
+- No server-side rendering (SSR) for MVP
+
+# Standards
+- React + shadcn/ui.
+- Reusable <DataTable/>.
+- Fetch only via src/lib/api.ts.
+- No direct Graph calls in frontend.

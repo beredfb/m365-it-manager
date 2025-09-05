@@ -1,0 +1,16 @@
+# Scope
+- Future database integration planning (post-MVP)
+- SQLAlchemy ORM standards for when database is added
+- Alembic migration management
+
+# Non-goals
+- No database implementation in MVP (Graph API provides data)
+- No direct SQL queries or stored procedures
+- No NoSQL databases for MVP scope
+
+# Database & Schema Standards
+
+- **ORM**: Use SQLAlchemy for all database interactions.
+- **Migrations**: Use Alembic for schema migrations.
+- **Migration Naming**: Migrations should have a descriptive name following the pattern `<verb>_<noun>`. Example: `add_user_table`.
+- **Models**: Database models should be defined in `backend/app/models/`.

@@ -1,0 +1,17 @@
+# Scope
+- Markdown documentation for all project artifacts
+- OpenAPI/Swagger standards for API documentation
+- Architecture Decision Records (ADRs) for major decisions
+- Clear, concise technical writing
+
+# Non-goals
+- No complex documentation frameworks (GitBook, etc.)
+- No auto-generated docs beyond API specs
+- No video or multimedia documentation for MVP
+
+# Documentation Style Guide
+
+- **Format**: All documentation should be in Markdown.
+- **API Spec**: Use OpenAPI standards for `docs/API_SPEC.md` where possible.
+- **ADRs**: Use the provided template for Architecture Decision Records in `DECISIONS/`.
+- **Clarity**: Write for clarity and conciseness. Avoid jargon where possible.

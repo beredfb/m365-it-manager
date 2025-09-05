@@ -1,0 +1,16 @@
+# AI Development Protocol
+- **MANDATORY**: All AI-assisted development MUST strictly follow the protocol defined in `CONTRIBUTING-CURSOR.md`.
+- Before starting any task, the AI MUST confirm the plan, including the rules, source files, and target files as per the T-Task Protocol.
+- The Definition of Done (DoD) checklist MUST be completed before finishing a task.
+
+# Scope
+- Only MVP 5 features.
+- Block any Intune/DLP/Sec additions in v0.1 without ADR.
+
+# Style
+- Modules under ~300 LOC.
+- Typed code (TS/Python).
+- Graph calls only via backend/services/graph_client.py
+
+# PR Gate
+- Out-of-scope changes → open ADR.

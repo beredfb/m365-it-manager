@@ -1,0 +1,34 @@
+{
+  "commands": [
+    {
+      "name": "get_user",
+      "description": "Get a user by ID or UPN.",
+      "args": ["id_or_upn"]
+    },
+    {
+      "name": "list_users",
+      "description": "List all users in the directory.",
+      "args": []
+    },
+    {
+      "name": "assign_license",
+      "description": "Assign or remove a license for a user.",
+      "args": ["user_id", "sku_id_to_add", "sku_id_to_remove"]
+    },
+    {
+      "name": "mfa_status",
+      "description": "Get MFA status for all users.",
+      "args": []
+    },
+    {
+      "name": "teams_active",
+      "description": "Get users active in Teams in the last N days.",
+      "args": ["days"]
+    },
+    {
+      "name": "mailbox_usage",
+      "description": "Get mailbox usage for all users.",
+      "args": []
+    }
+  ]
+}

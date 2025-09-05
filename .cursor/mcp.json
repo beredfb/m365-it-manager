@@ -1,0 +1,16 @@
+{
+  "providers": [
+    {
+      "provider": "msgraph",
+      "manifestPath": "tools/mcp/graph/manifest.json"
+    },
+    {
+      "provider": "repo",
+      "manifestPath": "tools/mcp/repo/manifest.json"
+    },
+    {
+      "provider": "reporter",
+      "manifestPath": "tools/mcp/reporter/manifest.json"
+    }
+  ]
+}

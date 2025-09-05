@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "name": "find_component",
+      "description": "Find a frontend component by name.",
+      "args": ["component_name"]
+    },
+    {
+      "name": "find_router",
+      "description": "Find a backend router by name.",
+      "args": ["router_name"]
+    }
+  ]
+}

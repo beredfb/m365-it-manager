@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "name": "generate_gap_report",
+      "description": "Generate a report of missing secrets, IDs, and next steps.",
+      "args": []
+    },
+    {
+      "name": "summarize_tasks",
+      "description": "Summarize the status of tasks in MVP_TASKS.md.",
+      "args": []
+    }
+  ]
+}

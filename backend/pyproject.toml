@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "m365-it-manager-backend"
+version = "0.1.0"
+description = "Backend for the M365 IT Manager Panel"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "*"
+uvicorn = "*"
+httpx = "*"
+python-dotenv = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

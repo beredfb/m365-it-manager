@@ -1,0 +1,15 @@
+# Scope
+- Comprehensive unit and integration testing for all MVP features
+- 80%+ code coverage requirement for backend
+- Test fixtures and mock data for Graph API calls
+- Automated testing in CI/CD pipeline
+
+# Non-goals
+- No manual testing as primary quality gate
+- No E2E testing tools like Playwright/Cypress for MVP
+- No performance testing infrastructure for MVP
+
+# Standards
+- Backend: pytest, 80%+ coverage aim.
+- Frontend: vitest + RTL.
+- CI fails on lint/test.

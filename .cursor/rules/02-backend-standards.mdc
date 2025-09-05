@@ -1,0 +1,19 @@
+# Scope
+- FastAPI with Python 3.11+ for all backend services
+- Microsoft Graph API integration via services/graph_client.py
+- Azure AD authentication with bearer tokens
+- Structured error handling (RFC7807 problem+json)
+- Comprehensive unit and integration testing
+
+# Non-goals
+- No Flask, Django, or other Python web frameworks
+- No direct database access from MVP (Graph API only)
+- No custom authentication mechanisms beyond Azure AD
+- No GraphQL or REST API alternatives for Graph calls
+
+# Standards
+- FastAPI routers in app/routers/*
+- Auth: bearer; consider OBO if needed.
+- Retries for Graph (429/5xx) with exp backoff.
+- Return problem+json errors.
+- Unit tests per router (happy & edge).

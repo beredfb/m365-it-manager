@@ -1,0 +1,13 @@
+# Scope
+- Microsoft Graph API v1.0 endpoints for all production code
+- Minimal permission scopes following principle of least privilege
+- Centralized Graph client in backend/app/services/graph_client.py
+
+# Non-goals
+- No Graph /beta endpoints unless absolutely necessary (and behind feature flag)
+- No Graph SDK alternatives or custom HTTP clients
+- No direct Graph calls from frontend
+
+# Standards
+- Prefer v1.0; use /beta only if no v1.0 equivalent (behind flag).
+- Minimal scopes; track in docs/PERMISSIONS.md.

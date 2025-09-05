@@ -1,0 +1,18 @@
+# Scope
+- Azure cloud infrastructure using Infrastructure as Code
+- Bicep templates for resource provisioning
+- Azure Key Vault for secrets management
+- GitHub Actions for CI/CD pipelines
+
+# Non-goals
+- No on-premises deployment for MVP
+- No multi-cloud support (Azure only)
+- No Terraform or other IaC tools
+- No container orchestration beyond App Service
+
+# Infrastructure & DevOps Standards
+
+- **IaC**: Use Bicep for defining Azure infrastructure.
+- **Secrets**: All secrets must be stored in Azure Key Vault. No secrets in `.env` files in production.
+- **CI/CD**: Workflows are defined in `.github/workflows/`.
+- **Environment Variables**: All environment-specific configurations should be managed through environment variables.

@@ -1,0 +1,4 @@
+- Verify the changes adhere to project guardrails (`.cursor/rules`).
+- Check for scope creep. If new features are introduced, require an ADR.
+- Ensure code is clean, typed, and tested.
+- Reject changes that violate established standards.
